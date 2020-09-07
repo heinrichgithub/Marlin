@@ -214,6 +214,7 @@
 
 // Emulated DOGM Configs
 #elif ENABLED(TFT_CLASSIC_UI)
+
   #ifndef XPT2046_X_CALIBRATION
     #define XPT2046_X_CALIBRATION          12149
   #endif
@@ -228,6 +229,7 @@
   #endif
 
 #elif ENABLED(TFT_320x240)                        // TFT32/28
+
   #ifndef XPT2046_X_CALIBRATION
     #define XPT2046_X_CALIBRATION         -12246
   #endif
@@ -242,6 +244,7 @@
   #endif
 
 #elif ENABLED(TFT_480x320)
+
   #ifndef XPT2046_X_CALIBRATION
     #define XPT2046_X_CALIBRATION          17880
   #endif
@@ -254,6 +257,7 @@
   #ifndef XPT2046_Y_OFFSET
     #define XPT2046_Y_OFFSET                 349
   #endif
+
 #endif
 
 #define HAS_SPI_FLASH                          1
