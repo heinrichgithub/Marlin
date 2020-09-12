@@ -22,6 +22,8 @@
 
 #include "../../../../inc/MarlinConfigPre.h"
 
+#if HAS_TFT_LVGL_UI
+
 #include "SPI_TFT.h"
 #include "pic_manager.h"
 
@@ -91,3 +93,4 @@ void TFT::LCD_Draw_Logo() {
   #endif
 }
 
+#endif // HAS_TFT_LVGL_UI
